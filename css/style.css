@@ -15,28 +15,26 @@ body {
 	color: #000;
 	background: #edf2f7;
 }
-
 a, .btn, button {
 	text-decoration: none;
 	outline: none;
 	transition: all 300ms linear 0s;
 }
-
+a{
+	display: block;
+}
 a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 	text-decoration: none;
 	outline: none;
 }
-
 ul, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	list-style: none;
 	padding: 0;
 }
-
 section.row, header.row, footer.row {
 	margin: 0;
 }
-
 p{
     margin-bottom: 0px;
 }
@@ -92,7 +90,6 @@ p{
 
 
 
-
 /*=========Header CSS========*/
 .header-area{
 	width:100%;
@@ -135,10 +132,12 @@ p{
 }
 
 
+
 /*=========Navbar CSS========*/
 .navbar{
 	background:#007BC1;
 	padding:0;
+	border-bottom:5px solid #005c91;
 }
 .navbar{
 	background:#007BC1;
@@ -154,12 +153,7 @@ p{
 
 
 
-
-
-
-
-
-
+/*=========Slider CSS========*/
 .one {
 	background-image: url("https://img.freepik.com/photos-gratuite/beau-paysage-riviere-entouree-verdure-dans-foret_181624-40482.jpg?w=1060&t=st=1660555488~exp=1660556088~hmac=17904c5639b112431c42911320184a1dc378acecbad6682e003e56d617fb077c");
 }
@@ -190,4 +184,69 @@ p{
 }
 .slide.active .one{
 	opacity:0;
+}
+
+
+
+/*=========Icons CSS========*/
+.icons-area{
+	width:100%;
+	padding:60px 0;
+}
+.icons-area a{
+	width:auto;
+	height:auto;
+	padding:20px 35px;
+	margin:0 15px;
+	border-radius:28px;
+	background-color:#fff;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+}
+.icons-area a{
+	width:auto;
+	height:auto;
+	padding:20px 35px;
+	margin:0 15px;
+	border-radius:25px;
+	background-color:#fff;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	border:2px solid #fff;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+}
+.icons-area a:hover{
+	border:2px solid #007BC1;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
+}
+.icons-area a span{
+	width:54px;
+	height:54px;
+	border-radius:50%;
+	border:2px solid #d5e5f7;
+	padding:4px;
+	text-align:center;
+}
+.icons-area a span img{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+}
+.icons-area a p{
+	color:rgb(0, 83, 131);
+	font-size:14px;
+	font-weight:500;
+	line-height:18px;
+	margin-top:7px;
 }
