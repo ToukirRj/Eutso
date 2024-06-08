@@ -87,7 +87,20 @@ p{
       transform: rotate(360deg);
     }
 }
-
+.head-title{
+	width:100%;
+	margin-bottom:20px;
+}
+.head-title h1{
+	color:#007BC1;
+	font-size:37px;
+	font-weight:700;
+}
+.head-title p{
+	color:#030047;
+	font-size:16px;
+	font-weight:700;
+}
 
 
 /*=========Header CSS========*/
@@ -102,6 +115,28 @@ p{
 }
 .header-area .logo img{
 	width:100%;
+}
+.header-area .form-control{
+	width:400px;
+	background:#d6e0eb;
+	border:0;
+	border-radius:40px;
+	height:40px;
+	max-width:100%;
+	padding-left:45px;
+	color:#020046;
+}
+.header-area .form-control:focus{
+	box-shadow:none;
+}
+.header-area .search{
+	position:absolute;
+	top:0;
+	left:0;
+	height:40px;
+	margin-left:7px;
+	background:none;
+	border:0;
 }
 .header-area .language{
 	height:40px;
@@ -154,21 +189,32 @@ p{
 
 
 /*=========Slider CSS========*/
-.one {
-	background-image: url("https://img.freepik.com/photos-gratuite/beau-paysage-riviere-entouree-verdure-dans-foret_181624-40482.jpg?w=1060&t=st=1660555488~exp=1660556088~hmac=17904c5639b112431c42911320184a1dc378acecbad6682e003e56d617fb077c");
-}
-.two {
-	background-image: url("https://img.freepik.com/photos-gratuite/superbe-scene-crete-montagne-cote-azur_181624-35903.jpg?w=1380&t=st=1660555554~exp=1660556154~hmac=26b3ff53081b01db6dbec6edc213520eaac58040644e11c2b46ed3aa7da374e4");
+.slide-area{
+	overflow:hidden;
 }
 .slide {
 	position: relative;
 	height:400px;
-	flex: .5;
+	flex: .9;
 	transition:flex .25s ease-in;
 	cursor:pointer;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.slide .thumb{
+	position:absolute;
+	top:0;
+	width:100%;
+	left:0;
+	max-width:270px;
+	height:100%;
 }
 .slide.active{
-	flex:5;
+	flex:3;
+}
+.slide.active .thumb{
+	display:none;
 }
 .slide h3 {
 	position: absolute;
@@ -226,15 +272,12 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 }
 .icons-area a:hover{
 	border:2px solid #007BC1;
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
--moz-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 }
 .icons-area a span{
 	width:54px;
 	height:54px;
 	border-radius:50%;
-	border:2px solid #d5e5f7;
+	border:2px solid #f8d0d0;
 	padding:4px;
 	text-align:center;
 }
@@ -249,4 +292,137 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 	font-weight:500;
 	line-height:18px;
 	margin-top:7px;
+}
+
+
+
+/*=========Ment CSS========*/
+.ment-area{
+	width:100%;
+}
+.ment-area .single-sl{
+	width:100%;
+	padding:15px;
+}
+.ment-area .ment-box{
+	width:100%;
+	padding:10px;
+	background:#fff;
+	border-radius:40px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.12);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.12);
+box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.12);
+}
+.ment-area .ment-box img{
+	border-radius:33px;
+}
+.ment-area .ment-box .lin{
+	width: 64px;
+	height: 64px;
+	background: #FFC9C9;
+	border-radius: 50%;
+	border: 7px solid #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index:9;
+	transition: all 0.35s ease-in-out;
+}
+.ment-area .ment-box:hover .lin{
+	background: #020046;
+}
+.ment-area .ment-box p{
+	color:rgb(0, 83, 131);
+	font-size:19px;
+	font-weight:700;
+	line-height:18px;
+	margin-top:7px;
+	text-align: center;
+	padding:30px 0 10px;
+	position:relative;
+	z-index:99;
+}
+.ment-area .ment-box:hover p{
+	color:#020046;
+}
+
+
+
+
+/*=========Footer CSS========*/
+footer{
+    background: #003c5f;
+    padding: 100px 0;
+}
+footer .ctext{
+    font-size: 27px;
+    color: #fff;
+}
+footer .contact {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 200;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+footer .address, footer .email, footer .phone{
+	display: block;
+	font-size: 15px;
+	color: #fff;
+	margin: 20px 0;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+footer .address:hover, footer .email:hover, footer .phone:hover{
+	opacity:.55;
+}
+.links-tab{
+	width:100%;
+}
+.links-tab h3 {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.links-tab a{
+	color: #fff;
+	font-size: 21px;
+	font-weight: 500;
+	width: 100%;
+	margin: 10px 0;
+}
+.links-tab a:hover{
+	opacity:0.35;
+}
+.copyright-text p {
+	font-size: 14px;
+	color: #3795c0;
+	letter-spacing: 1px;
+    margin-top:60px;
+}
+footer .back-top {
+	position: relative;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-top: 60px;
+    text-align:right;
+    display:block;
+}
+footer .back-top:hover {
+	opacity:0.5;
+}
+footer .back-top svg{
+	margin-left:10px;
 }

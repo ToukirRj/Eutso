@@ -10,6 +10,8 @@
 
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/slick-theme.css"/>
    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -23,9 +25,20 @@
 <section class="header-area">
     <div class="container">
         <div class="d-flex align-items-center justify-content-between">
-            <a class="logo" href="#">
-                <img src="./images/logo.png" alt="logo"/>
-            </a>
+            <div class="d-flex align-items-center justify-content-between">
+                <a class="logo" href="#">
+                    <img src="./images/logo.png" alt="logo"/>
+                </a>
+                <form class="position-relative ms-4" role="search">
+                    <input class="form-control" type="search" placeholder="Type to Search" aria-label="Search">
+                    <button type="button" class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#007BC1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        
             <div class="d-flex align-items-center">
                 <a href="#" class="language d-flex align-items-center">
                     <img src="./images/flag.svg" alt="flag" width="16" height="16"/>
@@ -77,20 +90,20 @@
 
 <!--------Slider Area--------->
 <div class="slide-area d-flex align-items-center justify-center">
-    <div class="slide active one">
-        <h3>Photo One</h3>
+    <div class="slide active" style="background-image:url('./images/entertainment/1.webp')">
+        <img class="thumb" src="/images/entertainment/11.webp" alt="thumb"/>
     </div>
-    <div class="slide two">
-        <h3>Photo Two</h3>
+    <div class="slide" style="background-image:url('./images/entertainment/2.webp')">
+        <img class="thumb" src="/images/entertainment/22.webp" alt="thumb"/>
     </div>
-    <div class="slide two">
-        <h3>Photo Two</h3>
+    <div class="slide" style="background-image:url('./images/entertainment/3.webp')">
+        <img class="thumb" src="/images/entertainment/33.webp" alt="thumb"/>
     </div>
-    <div class="slide two">
-        <h3>Photo Two</h3>
+    <div class="slide" style="background-image:url('./images/entertainment/4.webp')">
+        <img class="thumb" src="/images/entertainment/44.webp" alt="thumb"/>
     </div>
-    <div class="slide two">
-        <h3>Photo Two</h3>
+    <div class="slide" style="background-image:url('./images/entertainment/1.webp')">
+        <img class="thumb" src="/images/entertainment/11.webp" alt="thumb"/>
     </div>
 </div>
 
@@ -120,54 +133,331 @@
 </div>
 
 
+<!--------Entertainment Area--------->
+<div class="ment-area">
+    <div class="container">
+        <div class="head-title text-center">
+            <p>Recommendations based on most purchased</p>
+            <h1>Entertainment Subscriptions</h1>
+        </div>
+        <div class="testimonial-slider">
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/11.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Spotify Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/22.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Netflix Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/33.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>iTunes Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Entertainment Area--------->
+<div class="ment-area">
+    <div class="container">
+        <div class="head-title text-center">
+            <p>Recommendations based on most purchased</p>
+            <h1>Entertainment Subscriptions</h1>
+        </div>
+        <div class="testimonial-slider">
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/11.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Spotify Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/22.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Netflix Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/33.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>iTunes Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Entertainment Area--------->
+<div class="ment-area">
+    <div class="container">
+        <div class="head-title text-center">
+            <p>Recommendations based on most purchased</p>
+            <h1>Entertainment Subscriptions</h1>
+        </div>
+        <div class="testimonial-slider">
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/11.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Spotify Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/22.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Netflix Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/33.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>iTunes Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Entertainment Area--------->
+<div class="ment-area">
+    <div class="container">
+        <div class="head-title text-center">
+            <p>Recommendations based on most purchased</p>
+            <h1>Entertainment Subscriptions</h1>
+        </div>
+        <div class="testimonial-slider">
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/11.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Spotify Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/22.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Netflix Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/33.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>iTunes Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+            <div class="single-sl">
+                <a href="#" class="ment-box">
+                    <img src="./images/entertainment/44.webp" alt="ment" class="w-100"/>
+                    <span class="position-relative">
+                        <span class="lin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#EF002A" d="M8.46 6.3a.75.75 0 1 0 0 1.5h6.68l-8.62 8.62a.75.75 0 1 0 1.06 1.06l8.62-8.62v6.68a.75.75 0 0 0 1.5 0V7.05a.8.8 0 0 0-.06-.29a.76.76 0 0 0-.64-.46Z"/></svg>
+                        </span>
+                        <p>Amazon Subscriptions</p>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-<footer class="footer-area">
+
+<!--------Footer Area--------->
+<footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="footer-info">
-                <a class="foot-logo" href="index.html">
-                    <img src="images/logo.webp" alt="img">
-                </a>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="text-start">
+                    <h3 class="ctext">Let’s work together to build something great.</h3>
+                    <a class="contact link-underline" href="contact.html">
+                        Contact Us
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M17.452 6H6.547a.548.548 0 0 0 0 1.096h9.585l-9.97 9.97a.545.545 0 1 0 .772.772l9.97-9.971v9.586a.548.548 0 0 0 1.096 0V6.546A.548.548 0 0 0 17.452 6"></path>
+                        </svg>
+                    </a>
+                </div>
+                <a class="address" href="https://www.google.com/maps" target="blank">Example
+                    Address, House-04, Road-02, United States.</a>
+                <a class="email" href="mailto:example@gmail.com" target="blank">example@gmail.com</a>
+                <a class="phone" href="tel:+880353262543" target="blank">+880353262543</a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12">
+                <div class="links-tab">
+                    <h3>Short Links</h3>
+                    <a href="about.html" class="cursor-link">Games</a>
+                    <a href="projects.html" class="cursor-link">eCards</a>
+                    <a href="contact.html" class="cursor-link">eGift Cards</a>
+                    <a href="contact.html" class="cursor-link">Nintendo</a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-6 col-sm-12">
-                <div class="footer-link">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#keys">Key Features</a></li>
-                            <li><a href="#tokeno">Tokenomics</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <ul>
-                            <li><a href="#road">Roadmap</a></li>
-                            <li><a href="#case">Use Cases</a></li>
-                            <li><a href="images/whitepaper.pdf">Whitepaper</a></li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="footer-info">
-                <ul class="social-icon">
-                    <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
-                    <li><a href="#"><img src="images/chatbot.png" alt="chatbot"></a></li>
-                    <li><a href="#"><img src="images/tiktok.png" alt="tiktok"></a></li>
-                    <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
-                </ul>
+            <div class="col-lg-2 col-md-3 col-sm-12">
+                <div class="links-tab">
+                    <h3>Social Medias</h3>
+                    <a href="https://www.dribbble.com" target="_blank" class="cursor-link">Dribbble</a>
+                    <a href="https://www.behance.com" target="_blank" class="cursor-link">Behance</a>
+                    <a href="https://www.linkedin.com" target="_blank" class="cursor-link">Linkedin</a>
+                    <a href="https://www.facebook.com" target="_blank" class="cursor-link">Facebook</a>
+                    <a href="https://www.instagram.com" target="_blank" class="cursor-link">Instagram</a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="copy-text text-center">
-                    Copyright © <b>BELLA CIAO</b> 2024-2028. All rights reserved.
+            <div class="col-lg-8 col-md-8 col-xs-12">
+                <div class="copyright-text">
+                    <p>© 2024 Copyright. All Right Reserved.</p>
                 </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <a id="button" class="back-top cursor-link" href="#">
+                    Back To Top
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                        <path fill="white" d="M256 16C123.452 16 16 123.452 16 256s107.452 240 240 240s240-107.452 240-240S388.548 16 256 16m147.078 387.078a207.253 207.253 0 1 1 44.589-66.125a207.332 207.332 0 0 1-44.589 66.125"></path>
+                        <path fill="white" d="m142.319 241.027l22.628 22.627L240 188.602V376h32V188.602l75.053 75.052l22.628-22.627L256 127.347z"></path>
+                    </svg>
+                </a>
             </div>
         </div>
     </div>
@@ -175,6 +465,8 @@
 
 <!--All JS Files Here-->
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jQuery.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>

@@ -26,3 +26,40 @@ function removeClassActive() {
     slide.classList.remove("active");
   });
 }
+
+
+
+// Product Slide
+$('.testimonial-slider').slick({
+  dots: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplaySpeed: 1000,
+  swipeToSlide:true,
+  responsive: [
+    {
+      breakpoint: 1367,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 1101,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+});
