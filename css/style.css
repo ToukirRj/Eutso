@@ -1,0 +1,193 @@
+
+/*==============Font-Face===============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;&display=swap');
+
+#root{
+	font-family: "Roboto", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*=========Common CSS========*/
+body {
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	background: #edf2f7;
+}
+
+a, .btn, button {
+	text-decoration: none;
+	outline: none;
+	transition: all 300ms linear 0s;
+}
+
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+ul, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+section.row, header.row, footer.row {
+	margin: 0;
+}
+
+p{
+    margin-bottom: 0px;
+}
+.page-loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #171E27;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999999999;
+}
+.loader-3 {
+	width: 48px;
+	height: 48px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	animation: rotation 1s linear infinite;
+}
+.loader-3::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-bottom-color: #E01218;
+}
+@-webkit-keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+
+
+
+/*=========Header CSS========*/
+.header-area{
+	width:100%;
+	padding:15px 0;
+	background:#fff;
+}
+.header-area .logo{
+	width:240px;
+	display:block;
+}
+.header-area .logo img{
+	width:100%;
+}
+.header-area .language{
+	height:40px;
+}
+.header-area .language p{
+	color:#007BC1;
+	font-size:14px;
+	font-weight:500;
+	line-height:18px;
+}
+.header-area .language:hover p{
+	color:#020046;
+}
+.header-area a.log{
+	color:#007BC1;
+	font-size:14px;
+	font-weight:500;
+	line-height:18px;
+	display:flex;
+	align-items:center;
+	height:40px;
+}
+.header-area a.log:hover{
+	color:#020046;
+}
+.header-area .icons a{
+	margin-left:20px;
+}
+
+
+/*=========Navbar CSS========*/
+.navbar{
+	background:#007BC1;
+	padding:0;
+}
+.navbar{
+	background:#007BC1;
+}
+.navbar .nav-item .nav-link{
+	color:#fff;
+	padding:15px 20px;
+}
+.navbar .nav-item .nav-link:hover{
+	color:#fff;
+	background-color:#005c91;
+}
+
+
+
+
+
+
+
+
+
+.one {
+	background-image: url("https://img.freepik.com/photos-gratuite/beau-paysage-riviere-entouree-verdure-dans-foret_181624-40482.jpg?w=1060&t=st=1660555488~exp=1660556088~hmac=17904c5639b112431c42911320184a1dc378acecbad6682e003e56d617fb077c");
+}
+.two {
+	background-image: url("https://img.freepik.com/photos-gratuite/superbe-scene-crete-montagne-cote-azur_181624-35903.jpg?w=1380&t=st=1660555554~exp=1660556154~hmac=26b3ff53081b01db6dbec6edc213520eaac58040644e11c2b46ed3aa7da374e4");
+}
+.slide {
+	position: relative;
+	height:400px;
+	flex: .5;
+	transition:flex .25s ease-in;
+	cursor:pointer;
+}
+.slide.active{
+	flex:5;
+}
+.slide h3 {
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+	color: #fff;
+	font-size: 2rem;
+	opacity:0;
+	transition:opacity .2s ease-in .2s;
+}
+.slide.active h3{
+	opacity:1;
+}
+.slide.active .one{
+	opacity:0;
+}
