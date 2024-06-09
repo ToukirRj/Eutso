@@ -63,3 +63,40 @@ $('.test-slider').slick({
     }
   ]
 });
+
+
+
+// Product Slide
+$('.game-slider').slick({
+  dots: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplaySpeed: 1000,
+  swipeToSlide:true,
+  responsive: [
+    {
+      breakpoint: 1367,
+      settings: {
+        slidesToShow: 4
+      }
+    },
+    {
+      breakpoint: 1101,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+});

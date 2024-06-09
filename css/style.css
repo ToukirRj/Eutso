@@ -96,7 +96,7 @@ p{
 	font-weight:700;
 }
 .head-title p{
-	color:rgba(255,255,255,0.35);
+	color:rgba(255,255,255,0.45);
 	font-size:16px;
 	font-weight:700;
 }
@@ -341,7 +341,7 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 	border: 2px solid #27228e;
 }
 .icons-area a:hover{
-	border:2px solid #007BC1;
+	background-color:#27228e;
 }
 .icons-area a span {
 	width: 54px;
@@ -369,7 +369,7 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 /*=========Ment CSS========*/
 .ment-area{
 	width:100%;
-	padding-bottom:80px;
+	padding-bottom:60px;
 }
 .ment-area .single-sl{
 	width:100%;
@@ -410,7 +410,8 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 .ment-area .ment-box p{
 	color:#fff;
 	font-size:19px;
-	font-weight:700;
+	font-weight:600;
+	letter-spacing:0.5px;
 	line-height:18px;
 	margin-top:7px;
 	text-align: center;
@@ -422,11 +423,24 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 	color:#7898ff;
 }
 .games-area{
-	padding: 40px 0;
-	background: #c5dbe9;
+	padding: 50px 0;
+	background: #0d0a52;
 }
-
-
+.games-area .single-sl{
+	padding:10px;
+}
+.games-area .ment-box{
+	padding:8px;
+	border-radius:20px;
+}
+.games-area .ment-box img{
+	border-radius:13px;
+}
+.games-area .ment-box p {
+	font-size: 15px;
+	text-align: left;
+	padding: 25px 0 5px;
+}
 
 
 
