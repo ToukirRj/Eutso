@@ -30,7 +30,7 @@ function removeClassActive() {
 
 
 // Product Slide
-$('.testimonial-slider').slick({
+$('.test-slider').slick({
   dots: true,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -47,6 +47,43 @@ $('.testimonial-slider').slick({
       breakpoint: 1101,
       settings: {
         slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+
+
+// Product Slide
+$('.game-slider').slick({
+  dots: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplaySpeed: 1000,
+  swipeToSlide:true,
+  responsive: [
+    {
+      breakpoint: 1367,
+      settings: {
+        slidesToShow: 4
+      }
+    },
+    {
+      breakpoint: 1101,
+      settings: {
+        slidesToShow: 3
       }
     },
     {
