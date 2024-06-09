@@ -1,636 +1,134 @@
 
 
 /*====================Responsive===================*/
-@media (min-width: 1600px){
-	.container-xl{
-	  max-width: 1600px;
-	}
-}
 
 @media all and (max-width: 1539px) {
-	.banner-area .carousel-inner .item .content h1 {
-	  font-size: 66px;
-	  line-height: 70px;
-	}
-	.banner-area .carousel-inner .item .content h1::after {
-		width: 480px;
-	}
-	.banner-area .carousel-inner .item .div-image {
-		bottom: 1%;
-	}
-	.es-gibt-part .es-gibt-left h1 {
-		font-size: 29px;
-	}
-	.all-wir-slider .wir-slider-boder .wir-body {
-		padding: 10px;
-	}
-	.all-wir-slider .wir-slider-boder {
-		margin: 5px;
-	}
-	.gent-part .left-opacity {
-		width: 260px;
-	}
-	.gent-part .right-opacity {
-		width: 260px;
-	}
-	.slider-pan .left-opacity {
-		width: 235px;
-	}
-	.slider-pan .right-opacity {
-		width: 235px;
-	}
-	.banner-area::after {
-		background-position: center right;
-	}
-	.header-area .navbar-collapse .navbar-nav .nav-link {
-		padding: 16px 24px;
-	}
-}
-@media all and (max-width: 1365px) {
-	.head-text h2 {
-		font-size: 39px;
-	}
-	.header-area .navbar-collapse .navbar-nav .nav-link {
-		padding: 10px 12px;
-		font-size: 13px;
-	}
-	.banner-area .carousel-inner .item .content h1 {
-		font-size: 64px;
-		line-height: 70px;
-	}
-	.banner-area::after {
-		opacity: 0.15;
-	}
-	.banner-area .carousel-inner .item .content h1 span {
-		font-size: 28px;
-		line-height: 60px;
-	}
-	.carousel-inner {
-		overflow: inherit;
-	}
-	.banner-area .carousel-inner .item .div-image {
-		bottom: -35%;
-	}
-	.gentlenero-part .gentlenero-text h2 {
-		font-size: 32px;
-		line-height: 44px;
-	}
-	.gentlenero-part .gentlenero-text h3 {
-		font-size: 12px;
-	}
-	.da-mein-part .da-text h2 {
-		font-size: 24px;
-	}
-	.es-gibt-part .right-left-text h2 {
-		font-size: 20px;
-		line-height: 23.4px;
-	}
-	.es-gibt-part .right-left-text p {
-		font-size: 15px;
-		line-height: 20.8px;
-	}
-	.es-gibt-part .right-left-text a {
-		font-size: 13px;
-	}
-	.es-gibt-part .es-gibt-box {
-		padding: 30px 0;
-	}
-	.last-section h1 {
-		font-size: 45px;
-		line-height: 60px;
-	}
-	.last-section h3 {
-		font-size: 22px;
-		line-height: 28.4px;
-	}
-	.last-section h5 {
-		font-size: 16px;
-		line-height: 20.8px;
-	}
-	.wir-kummern-part .wir-kummern-header h1 {
-		font-size: 40px;
-		line-height: 50.4px;
-	}
-	.es-gibt-part .es-gibt-left h1 {
-		font-size: 27px;
-	}
-	.header-area .navbar-brand img {
-		width: 155px;
+	.slide {
+		height: 265px;
 	}
 }
 
-@media all and (max-width: 1099px) {
-	.real-footer ul li a {
-		padding: 0 12px;
-	}
-	.gent-part .left-opacity {
-		width: 0px;
-	}
-	.gent-part .right-opacity {
-		width: 0px;
-	}
-	.slider-pan .left-opacity {
-		width: 0px;
-	}
-	.slider-pan .right-opacity {
-		width: 0px;
+@media all and (max-width: 1365px) {
+	.ment-area {
+		padding-right: 50px;
+		padding-left: 50px;
 	}
 }
+
+@media all and (max-width: 1199px) {
+	.header-area .language {
+		display:none !important;
+	}
+	.header-area .icons a span{
+		display:none !important;
+	}
+	.slide {
+		height: 205px;
+	}
+}
+
 @media all and (max-width: 991px) {
-	.header-area .navbar-collapse {
-		padding: 20px 15px;
-		background: #161A1F;
-	}
-	.real-footer p {
-		text-align: center;
-	}
-	.real-footer ul {
-		margin: auto;
-		float: none;
-		display: table;
-	}
-	.real-footer ul li {
-		margin: 10px 0;
-	}
-	.last-section h1 {
-		font-size: 40px;
-		line-height: 45px;
-	}
-	.last-section h3 {
-		font-size: 18px;
-		line-height: 24.4px;
-	}
-	.last-section h5 {
-		font-size: 14px;
-		line-height: 15.8px;
-	}
-	.es-gibt-part .es-gibt-left h1 {
-		font-size: 36px;
-		line-height: 39px;
-	}
-	.es-content {
-		padding: 0 15px;
-	}
-	.es-gibt-part .right-left-text p {
-		padding: 15px 0;
-	}
-	.es-gibt-part .es-gibt-box {
-		padding: 20px 0 10px;
-	}
-	.es-content {
-		bottom: 60px;
-	}
-	.es-gibt-part .es-gibt-left h1 {
-		margin-bottom: 0;
-	}
-	.es-gibt-part .es-gibt-left p {
-		margin-bottom: 35px;
-	}
-	.es-gibt-part .es-gibt-left .es-left-headding {
-		margin-bottom:0;
-	}
-	.da-mein-part {
-		padding: 0 20px 70px 20px;
-	}
-	.da-mein-part .da-img{
-		padding-right: 30%;
-	}
-	.da-mein-part .da-text .da-text-p p {
-		font-size: 16px;
-		padding: 20px 0;
-	}
-	.da-mein-part .da-text h2 {
-		padding-bottom: 25px;
-	}
-	.da-mein-part .da-text img {
-		padding-top: 35px;
-		padding-bottom: 40px;
-	}
-	.gentlenero-video .my-video-links {
-		bottom: 42%;
-		left: 0;
-		right: 0;
-		width: 100px;
-		margin: auto;
-	}
-	.gentlenero-part .gentlenero-text h3 {
-		font-size: 12px;
-		line-height: 24px;
-	}
-	.gentlenero-part .gentlenero-text h2 {
-		font-size: 28px;
-		line-height: 36px;
-	}
-	.es-gibt-left{
-		margin-bottom:40px;
-	}
-	.last-book .last-book-area h1 {
-		font-size: 30px;
-		line-height: 35px;
-	}
-	.last-section {
-		padding: 50px 0;
-	}
-	.banner-area .carousel-inner .item .content {
-		width: 100%;
-		position: relative;
-		padding-top: 180px;
-	}
-	.banner-area .carousel-inner .item .div-image {
-		bottom: -15px;
-		position: relative;
-		margin-bottom: 30px;
-		margin-top:90px;
-	}
-	.about-text {
-		margin-top: 40px;
-		padding-left:0;
-	}
-	.about-text label {
-    	font-size: 21px;
-    	margin-bottom: 12px;
-    }
-    .about-text ul li {
-    	font-size: 15px;
-    }
-	.banner-area .carousel-inner .item .content h1 {
-		font-size: 60px;
-		line-height: 64px;
-		letter-spacing: -1px;
-	}
-	.banner-area .carousel-inner .item .content h1 span {
-		font-size: 24px;
-		line-height: 34px;
-	}
-	.banner-area .carousel-inner .item .content h1 {
-		margin-bottom: 20px;
-	}
-	.banner-area .carousel-inner .item .content h1::after {
-		display: none;
-	}
-	.wir-kummern-part {
-		padding: 65px 0;
-	}
-	.mobile-language{
-		display:block;
-	}
 	.navbar-toggler {
-		padding:3px 6px;
+		border: none;
+		padding: 12px 0;
 	}
 	.navbar-toggler:focus{
 		box-shadow:none;
 	}
-	.navbar-toggler i{
-		color: #fff;
-		font-size: 16px;
-		border: 1px solid rgba(255, 255, 255, 0.15);
-		padding: 10px 13px;
+	.slide-area {
+		display:none !important;
 	}
-	.header-area .navbar-brand {
-		top: -3px;
+	.mob-slide{
+		display:flex !important;
+		border-top: 2px solid #27228e;
+  		border-bottom: 2px solid #27228e;
+	}
+	.header-area form {
+		position: absolute !important;
 		left: auto;
-		right: 0;
-		position: relative;
-		transform: none;
-		margin-right: 0;
+		bottom: -46px;
+		z-index: 999;
+		margin-left: 40px !important;
 	}
-	.header-area.menu-fixed{
-		padding: 8px 50px;
+	.slick-next {
+		right: -25px;
 	}
-	.mobile-language{
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 14px;
-		padding: 2px 18px;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
-		color: rgba(255, 255, 255, 0.4);
+	.slick-prev {
+		left: -25px;
 	}
-	.mobile-language span{
-		color: rgba(255, 255, 255, 1);
-	}
-
-	.header-area .navbar-collapse .navbar-nav .nav-link {
-		font-style: normal;
-		font-weight: 400;
-		font-size: 24px;
-		line-height: 33.6px;
-		color: rgba(255, 255, 255, 0.4);
-		letter-spacing:0;
-		text-transform: capitalize;
-		padding: 8px 0;
-		border-right:0 !important;
-	}
-	.header-area .navbar-collapse .navbar-nav .nav-item label {
-		font-style: normal;
-		font-weight: 300;
-		font-size: 14px;
-		line-height: 19.6px;
-		color: rgba(255, 255, 255, 0.4);
-	}
-
-	.header-area .navbar-collapse .nav-area{
-		display:flex;
-	}
-	.header-area .navbar-collapse .navbar-nav{
-		width:100%;
-	}
-	.header-area .navbar-collapse .navbar-nav:last-child .nav-item {
-		border-bottom: 0;
-		padding: 10px 0;
-	}
-	.header-area .navbar-collapse .navbar-nav:last-child .nav-item.mai {
-		border-bottom: 0;
-		text-align:left;
-	}
-	.header-area .navbar-collapse .navbar-nav .nav-item.mai .nav-link {
-		text-align:left;
-	}
-	.header-area .navbar-collapse .navbar-nav:last-child .nav-link {
-		font-style: normal;
-		font-weight: 400;
-		font-size: 19px;
-		line-height: 16.8px;
-		color: rgba(255, 255, 255, 0.4);
-		padding: 10px 0;
-		text-align: center;
-	}
-	.header-area .navbar-collapse {
-		margin-top: 20px;
-		border-top: 1px solid rgba(196, 173, 158, 0.2);
-		border-bottom: 1px solid rgba(196, 173, 158, 0.2);
-	}
-	.not-mobile{
-		display:none;
-	}
-	.navbar-nav:last-child .nav-item label{
-		display:block;
-	}
-	.navbar-nav:last-child .nav-item.not-desk{
-		display:block;
-	}
-	.collection .col-menus li button {
-		font-size: 32px;
-		padding: 5px 0;
-		line-height:52.4px;
-	}
-    .es-gibt-part .right-left-text h2 {
-    	font-size: 26px;
-    	line-height: 32px;
-    	margin-bottom: 10px;
-    }
-    .es-gibt-part .right-left-text a {
-    	font-size: 16px;
-    	margin-bottom: 20px;
-    	display: block;
-    }
-    .start-btn.commer {
-    	font-size: 16px;
-    }
-    .start-btn.commer:hover {
-    	font-size: 16px;
-    }
-	.about-area.last.inner {
-		padding: 110px 0 80px 0;
-	}
-	.contact-frame {
-		padding: 40px 0;
-	}
-	.severy-box {
-		margin-top: 65px;
-	}
-	.gentlenero-part.calculate iframe{
-	    height:50rem !important;
-	}
-	.contact-frame iframe{
-        height:1500px !important;
-    }
-	.gentlenero-info-text {
-		min-height: auto;
+	.games-area .ment-box img {
+		max-height: 200px;
+		min-height: 200px;
 	}
 }
+
 @media all and (max-width: 767px) {
-	.gentlenero-info-text {
-		margin-bottom: 30px;
+	.icons-area a {
+		padding: 10px 20px;
+		border-radius: 15px;
 	}
-	.footer-area {
-		padding: 50px 20px;
+	.icons-area {
+		padding: 20px 0;
 	}
-	.real-footer ul {
-		text-align: center;
+	.head-title p {
+		font-size: 12px;
 	}
-	.real-footer p {
+	.head-title h1 {
+		font-size: 22px;
+	}
+	.slick-dots {
+		display:none !important;
+	}
+	.btn-show {
+		margin-top:0px;
+		padding: 8px 45px;
+		font-size: 14px;
+	}
+	.copyright-text p {
+		margin-top: 15px;
+	}
+	footer .back-top {
+		margin-top: 30px;
+	}
+	.ment-area {
+		padding-bottom: 35px;
+	}
+	.games-area {
+		padding: 30px 35px;
+	}
+	.slick-dotted.slick-slider {
 		margin-bottom: 15px;
 	}
-	.gent-part .gentlenero-header h1 {
-		font-size: 36px;
-	}
-	.gent-part .gentlenero-header p {
-		font-size: 11px;
-	}
-	.slider-pan .show-all {
-		margin-top: 65px;
-	}
-	.wir-kummern-part .wir-kummern-header h1 {
-		font-size: 24px;
-		line-height: 36.4px;
-	}
-	.wir-kummern-part .wir-kummern-header p {
-		font-size: 11px;
-	}
-	.es-gibt-part {
-		min-height: auto;
-	}
-	.last-book .last-book-area h1 {
-		font-size: 24px;
-	}
-	.es-gibt-part .es-gibt-left .es-left-headding {
-		font-size: 11px;
-	}
-	.es-gibt-part .es-gibt-left h1 {
-		padding: 20px 0;
-	}
-	.es-content {
-		bottom: 40px;
-	}
-	.gentlenero-info-text p {
-		font-size: 14px;
-		margin-bottom: 0;
-		font-weight: 400;
-	}
-	.gentlenero-part .gentlenero-text h2 {
-		font-size: 24px;
-		line-height: 29px;
-	}
-	.banner-area {
-		padding: 0 15px 20px;
-		background-position: center;
-		background-size: cover;
-	}
-	.pri-head {
-		font-size: 45px;
-		line-height: 50px;
-		padding-bottom: 5px;
-	}
-	.banner-area .carousel-inner .item .content h1 {
-		font-size: 42px;
-		line-height: 46px;
-	}
-	.banner-area .carousel-inner .item .content p {
-		font-size: 17px;
-		line-height: 14px;
-	}
-	.gentlenero-info-text h1 {
-		margin-top: 35px;
-	}
-	.header-area {
-		padding: 5px 15px;
-	}
-	.header-area.menu-fixed {
-		padding: 8px 15px;
-	}
-	.collection .col-menus li button {
-		font-size: 18px;
-		line-height: 32.4px;
-	}
-	.collection .tab-content .tab-pane img {
-		width: 24%;
-	}
-	.tokeno-part {
-		padding: 50px 0;
-	}
-	.tokeno-part .tokeno-box h1 {
-		font-size: 21px;
-		letter-spacing: -.35px;
-	}
-	.tokeno-part .tokeno-box {
-		margin-bottom: 30px;
-		margin-top: 30px;
-	}
-	.tokeno-part .tokeno-box .tokeno-line {
-		height: 34px;
-	}
-	.tokeno-part .tokeno-box .tokeno-line h4 {
-		height: 34px;
-		padding: 0 15px;
-		line-height: 34px;
-		font-size: 14px;
-	}
-	.tokeno-part .tokeno-box .tokeno-line h5 {
-		font-size: 11px;
-		padding: 0 8px;
-	}
-	.timeline {
-		padding: 50px 0;
-	}
-	.timeline .tagline p {
-		padding: 7px 15px;
+	footer .ctext {
 		font-size: 15px;
-		line-height: 32px;
-	}
-	.timeline .timeline-date {
-		font-size: 15px;
-		letter-spacing: -.15px;
-	}
-	.timeline .timeline-continue {
-		padding: 20px 0;
-	}
-	.timeline .timeline-container {
-		margin-top: 30px;
-	}
-	.qr-section {
-		padding: 50px 0;
-	}
-	.qr-section .qr-box {
-		padding: 30px;
-	}
-	.qr-section .qr-box h1 {
-		font-size: 35px;
-	}
-	.qr-section .qr-box h4 {
-		font-size: 13px;
-		font-weight: 500;
-		line-height: 24px;
-		margin-bottom: 25px;
-		word-break: break-all;
-	}
-	#contact h4 {
-		font-size: 16px;
-		color: #a9a9a9;
-		line-height: 24px;
 	}
 }
 
-
 @media all and (max-width: 575px) {
-	.banner-area .carousel-inner .item .content {
-		padding-top: 115px;
+	.games-area .ment-box img {
+		max-height: 232px;
+		min-height: 232px;
 	}
-	.banner-area .carousel-inner .item .div-image {
-		margin-top: 15px;
-		margin-bottom:15px;
+	.ment-area {
+		padding-right: 32px;
+		padding-left: 32px;
 	}
-	.last-section .mailfo {
-		font-size: 27px;
-	}
-	.about-area {
-		padding: 50px 0;
-	}
-	.about-area .about-img img {
-		border-radius: 20px;
-	}
-	.about-text p {
-		font-size: 14px;
-		font-weight: 400;
-	}
-	.gentlenero-part {
-		padding: 50px 0 30px;
-	}
-	.gentlenero-part .gentlenero-text h2 {
+	.head-title h1 {
 		font-size: 21px;
-		line-height: 15px;
 	}
-	.gentlenero-info-text {
-		padding: 20px;
-		border-radius: 30px;
+	.ment-area .ment-box {
+		border-radius: 18px;
 	}
-	.gentlenero-info-text img {
-		border-radius: 20px;
+	.ment-area .ment-box img {
+		border-radius: 10px;
 	}
-	.es-gibt-part {
-		padding: 50px 0px;
+	.header-area .logo {
+		width: 160px;
 	}
-	.about-area.last {
-		padding: 50px 0 100px 0;
+	.header-area form {
+		left: 10px;
 	}
-	.last-book .last-book-area h1 {
-		font-size: 18px;
-		line-height: 25px;
-		margin-bottom:10px;
-	}
-	.last-book .last-book-area {
-		border-radius: 20px;
-		padding: 20px 10px;
-	}
-	.last-section .footer-logo img {
-		width: 190px;
-	}
-	.real-footer p {
-		font-size: 9px;
-	}
-	.last-section h3 {
-		font-size: 14px;
-		line-height: 12px;
-	}
-	.last-book {
-		top: -57px;
-	}
-	.head-text h2 {
-		font-size: 32px;
-	}
-	.es-gibt-part .es-gibt-left h1 {
-		font-size: 32px;
-		line-height: 39px;
+	.header-area .form-control {
+		width: 295px;
 	}
 }

@@ -52,6 +52,12 @@ $('.test-slider').slick({
     {
       breakpoint: 768,
       settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
         slidesToShow: 1
       }
     },
@@ -88,6 +94,12 @@ $('.game-slider').slick({
     },
     {
       breakpoint: 768,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 575,
       settings: {
         slidesToShow: 1
       }
