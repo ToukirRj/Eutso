@@ -284,7 +284,7 @@ p{
 	position: relative;
 	display: inline-block;
 	width:40px;
-	height:10px;
+	height:7px;
 	margin: 0 5px;
 	padding: 0;
 	cursor: pointer;
@@ -292,13 +292,13 @@ p{
 .slick-dots li button {
 	padding: 0;
 	width:40px;
-	height:10px;
+	height:7px;
 }
 .slick-dots li button::before {
 	padding: 0;
-	background: #EF002A;
+	background: #fff;
 	width:40px;
-	height:10px;
+	height:7px;
 }
 
 
@@ -377,7 +377,7 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 }
 .ment-area .ment-box{
 	width:100%;
-	padding:10px;
+	padding:8px;
 	background:#1B167D;
 	border-radius:40px;
 	display:flex;
@@ -435,6 +435,10 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 }
 .games-area .ment-box img{
 	border-radius:13px;
+	max-height:290px;
+}
+.games-area .ment-box:hover img{
+	opacity:0.75;
 }
 .games-area .ment-box .price{
 	position:relative;
@@ -444,27 +448,28 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 	font-weight:600;
 	padding:0;
 	color:#92abff;
+	margin-bottom:10px;
 }
 .games-area .ment-box .price b{
 	font-size: 24px;
-	color:#b4c6ff;
+	color:#fff;
 }
 .games-area .ment-box p {
 	font-size: 14px;
 	font-weight:500;
 	text-align: left;
-	margin: 25px 0 10px;
+	margin: 23px 0 6px;
 	padding:0;
 	height:36px;
 	overflow:hidden;
 	text-overflow:ellipsis;
-	color:#fff;
+	color:#92abff;
 }
 .games-area .ment-box .wish-box{
-	background:#0D0A52;
-	padding:5px 12px;
+	background:#0F0B6A;
+	padding:2px 8px;
 	border-radius:5px;
-	height:34px;
+	height:30px;
 }
 .games-area .ment-box .wish{
 	font-size:14px;
@@ -472,17 +477,33 @@ box-shadow: 0px 0px 15px 0px rgba(0,80,130,0.15);
 	color:#92abff;
 	padding-left:0px;
 }
-.games-area .ment-box .place{
-	font-size:14px;
-	font-weight:600;
-	color:#B60234;
-	padding-left:5px;
-	background:#0D0A52;
-	padding:5px 12px;
-	border-radius:5px;
-	height:34px;
+.games-area .ment-box .place {
+	font-size: 14px;
+	font-weight: 600;
+	color: #B60234;
+	padding-left: 5px;
+	background: #0F0B6A;
+	padding: 4px 12px;
+	border-radius: 5px;
+	height: 30px;
 }
-
+.games-area .ment-box .wish-link {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background: #020046;
+	height: 38px;
+	width: 38px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	z-index:9;
+}
+.games-area .ment-box:hover .wish-link {
+	visibility: visible;
+}
 
 
 
