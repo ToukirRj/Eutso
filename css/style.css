@@ -195,7 +195,7 @@ p{
 .slide {
 	position: relative;
 	height:400px;
-	flex: .9;
+	flex: .95;
 	transition:flex .25s ease-in;
 	cursor:pointer;
 	background-position:center;
@@ -211,7 +211,7 @@ p{
 	height:100%;
 }
 .slide.active{
-	flex:3;
+	flex:4;
 }
 .slide.active .thumb{
 	display:none;
