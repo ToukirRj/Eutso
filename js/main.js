@@ -30,7 +30,7 @@ function removeClassActive() {
 
 
 // Product Slide
-$('.testimonial-slider').slick({
+$('.test-slider').slick({
   dots: true,
   slidesToShow: 4,
   slidesToScroll: 1,
