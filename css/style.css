@@ -560,6 +560,28 @@ footer .address:hover, footer .email:hover, footer .phone:hover{
 .links-tab a:hover{
 	opacity:0.35;
 }
+.pay-area{
+	width:100%;
+	margin-top:30px;
+}
+.pay-area h4{
+	font-size:15px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#fff;
+	margin-bottom:10px;
+}
+.pay-area ul{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.pay-area ul img{
+	display:inline-block;
+	height:28px;
+	margin-right:4px;
+	margin-bottom:7px;
+}
 .copyright-text p {
 	font-size: 13px;
 	color: #6080ff;
