@@ -60,6 +60,15 @@
 		max-height: 200px;
 		min-height: 200px;
 	}
+	.navbar .navbar-nav{
+		padding-bottom:1rem;
+	}
+	.navbar .navbar-nav .barcon{
+		display:none;
+	}
+	.navbar .navbar-nav .rightcon{
+		display:block;
+	}
 }
 
 @media all and (max-width: 767px) {

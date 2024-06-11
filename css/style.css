@@ -366,6 +366,59 @@ p{
 }
 
 
+/*=========offCanvas=======*/
+.offcanvas {
+	background-color: #1B167D;
+}
+.offcanvas-title{
+	color:#fff;
+}
+.offcanvas-header{
+	border-bottom: 1px solid #030046;
+	padding:15px 20px;
+}
+.offcanvas-body{
+	padding:10px 0;
+}
+.offcanvas-body ul a{
+	padding: 10px 20px;
+	color: #9ec0ff;
+}
+.offcanvas-body ul a:hover{
+	color:#fff;
+}
+.offcanvas-body ul .inner-pan{
+	pointer-events: none;
+    right:-400px;
+    box-shadow:0 0 rgba(0, 0, 0, 0);
+}
+.offcanvas-body ul .inner-pan.selected{
+    right:0;
+	overflow-y:auto;
+	pointer-events: all;
+}
+.offcanvas-body ul .inner-pan{
+	z-index:9999999 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    overscroll-behavior-y: contain;
+    background: #1b167d;
+    padding: 10px 0;
+    transition-duration: 200ms;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+.offcanvas-body ul .inner-pan h5 {
+	font-size: 1rem;
+	color: #fff;
+	font-weight: 600;
+	border-bottom: 1px solid #0D085E;
+}
+
+
 
 /*=========Ment CSS========*/
 .ment-area{
@@ -602,4 +655,8 @@ footer .back-top:hover {
 }
 footer .back-top svg{
 	margin-left:5px;
+}
+
+.navbar .navbar-nav .rightcon{
+	display:none;
 }

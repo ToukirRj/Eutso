@@ -112,3 +112,33 @@ $('.game-slider').slick({
     }
   ]
 });
+
+
+
+//click to selected
+$(document).ready(function(){
+  $('.humbtn1').on('click', function(){
+     $('.humbtn1+.inner-pan').addClass('selected')
+  });
+  $('.humcls1').on('click', function(){
+     $('.inner-pan').removeClass('selected')
+  });
+  $('.humbtn2').on('click', function(){
+     $('.humbtn2+.inner-pan').addClass('selected')
+  });
+  $('.humcls2').on('click', function(){
+     $('.inner-pan').removeClass('selected')
+  });
+  $('.humbtn3').on('click', function(){
+     $('.humbtn3+.inner-pan').addClass('selected')
+  });
+  $('.humcls3').on('click', function(){
+     $('.inner-pan').removeClass('selected')
+  });
+  $('.humbtn4').on('click', function(){
+     $('.humbtn4+.inner-pan').addClass('selected')
+  });
+  $('.humcls4').on('click', function(){
+     $('.inner-pan').removeClass('selected')
+  });
+});
