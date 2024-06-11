@@ -210,6 +210,10 @@ p{
 	color:#fff;
 	background-color:#27228e;
 }
+.navbar .navbar-nav .rightcon{
+	display:none;
+}
+
 
 
 
@@ -379,6 +383,7 @@ p{
 }
 .offcanvas-body{
 	padding:10px 0;
+	overflow-x:hidden;
 }
 .offcanvas-body ul a{
 	padding: 10px 20px;
@@ -563,7 +568,6 @@ p{
 
 
 
-
 /*=========Footer CSS========*/
 footer{
     background: #110d5a;
@@ -655,8 +659,4 @@ footer .back-top:hover {
 }
 footer .back-top svg{
 	margin-left:5px;
-}
-
-.navbar .navbar-nav .rightcon{
-	display:none;
 }
