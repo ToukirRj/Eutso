@@ -510,9 +510,16 @@ p{
 	color:#92abff;
 	margin-bottom:10px;
 }
-.games-area .ment-box .price b{
-	font-size: 24px;
-	color:#fff;
+.games-area .ment-box .price span{
+	text-decoration: line-through;
+	font-size: 13px;
+	color: #ff9595;
+	padding-left: 5px;
+}
+.games-area .ment-box .price b {
+	font-size: 20px;
+	color: #fff;
+	font-weight:600;
 }
 .games-area .ment-box p {
 	font-size: 14px;
@@ -564,6 +571,28 @@ p{
 .games-area .ment-box:hover .wish-link {
 	visibility: visible;
 }
+.offer-area{
+	padding:0 0 50px 0;
+}
+.offer-area .offer-title{
+	padding:50px 40px;
+	border-radius:30px;
+	background:#1B167D;
+}
+.offer-area .offer-title h1{
+	font-size: 31px;
+	font-weight: 800;
+	color: #a3baff;
+	line-height: 42px;
+}
+
+
+
+
+
+
+
+
 
 
 

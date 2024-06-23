@@ -111,6 +111,13 @@
 	footer .ctext {
 		font-size: 15px;
 	}
+	.offer-area .offer-title h1 {
+		font-size: 19px;
+		line-height: 30px;
+	}
+	.offer-area .offer-title {
+		padding: 25px 25px;
+	}
 }
 
 @media all and (max-width: 575px) {
@@ -139,5 +146,12 @@
 	}
 	.header-area .form-control {
 		width: 295px;
+	}
+	.offer-area .offer-title h1 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.offer-area .offer-title {
+		border-radius:15px;
 	}
 }
